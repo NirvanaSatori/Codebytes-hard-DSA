@@ -21,11 +21,9 @@ function StringChallenge() {
     if(output === undefined){
         return ""
     }
-    // console.log(output.split(" "))
     let tokenArr = token.split("")
     return output.split(" ").filter(char=>!tokenArr.includes(char)).join("")
   
   }
      
-  // keep this function call here 
   console.log(StringChallenge());
