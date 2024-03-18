@@ -31,11 +31,5 @@ function StringChallenge() {
     let output = min.split("")
     let tokenArr = token.split("")
     return output.filter(char=>!tokenArr.includes(char)).join("")
-    console.log(finalOutput)
-    // return output.join("")
-    
   }
-     
-  // keep this function call here
-//   StringChallenge() 
   console.log(StringChallenge());
