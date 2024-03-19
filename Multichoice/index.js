@@ -19,7 +19,7 @@ function resolveAfter10Seconds() {
     return new Promise(resolve => {
       setTimeout(() => {
         resolve('resolved');
-      }, 10000);
+      }, 1000);
     });
   }
 console.log(resolveAfter10Seconds())
