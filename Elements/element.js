@@ -1,6 +1,7 @@
 // const str = "<div><b><p>hello world</p></b></div>" 
 // const str ="<div><div><b></b></div></p>"
-let str = "<div>abc</div><p><em><s>test test test</b></em></p>"
+// let str = "<div>abc</div><p><em><s>test test test</b></em></p>"
+let str = "<p><p><em></em><p></p><i></p>"
 const token = "x4spty83gb5"
 
 function StringChallenge() { 
@@ -22,6 +23,7 @@ function StringChallenge() {
         return ""
     }
     let tokenArr = token.split("")
+    console.log(output)
     return output.split(" ").filter(char=>!tokenArr.includes(char)).join("")
   
   }
