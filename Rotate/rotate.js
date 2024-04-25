@@ -13,11 +13,11 @@ function ArrayChallenge() {
       arr.unshift(...nums)
     }
     const tokenArr = token.split("")
-    console.log(tokenArr, arr)
+    // console.log(tokenArr, arr)
     let result = arr.filter(char=>!tokenArr.includes(String(char))).join(""); 
     return result.length<1?"" :result
   
   }
      
   // keep this function call here 
-  console.log(ArrayChallenge());
+  // console.log(ArrayChallenge());
